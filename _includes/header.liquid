@@ -1,6 +1,6 @@
 <header>
   {% assign current_lang = page.lang | default: site.lang %}
-  {% assign about_page = nil %}
+  {% assign about_page = null %}
   {% for candidate in site.pages %}
     {% assign candidate_lang = candidate.lang | default: site.lang %}
     {% if candidate.ref == 'about' and candidate_lang == current_lang %}
