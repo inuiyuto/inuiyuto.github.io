@@ -2,96 +2,87 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Yuto Inui
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: May 29, 2000
+    - name: Affiliation
+      value: The University of Osaka
+    - name: Position
+      value: Ph.D student
+    - name: Research Interest
+      value: Machine learning via dynamical systems
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D in Information Systems Engineering
+      institution: Graduate School of Information Science and Technology, The University of Osaka
+      year: 2026.04 -
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Enrolled in April 2026
+    - title: M.S. in Information Systems Engineering
+      institution: Graduate School of Information Science and Technology, The University of Osaka
+      year: 2024.04 - 2026.03
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis: Learning Representations via Dynamical Structures of Oscillatory Neural Networks
+    - title: B.S. in Information Science
+      institution: School of Engineering Science, The University of Osaka
+      year: 2020.04 - 2024.03
+      description:
+        - Thesis: ニューラル常微分方程式における変数拡張の表現力向上に関する実験的検証
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Research Part-timer II
+      institution: RIKEN Center for Advanced Intelligence Project (AIP), Dynamical Systems Learning Team
+      year: 2024.04 -
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Learning with Almost Invariant Sets in Neural Oscillatory ODEs
+      institution: ICONIP 2024, published in CCIS Vol. 2284 (Springer)
+      year: 2025.06
+      description:
+        - Y. Inui, T. Konishi, and Y. Kawahara
+        - Communications in Computer and Information Science (CCIS), Vol. 2284, pp. 347-361
 
-- title: Honors and Awards
+- title: Presentations
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: 振動するニューラル常微分方程式におけるほとんど不変な集合を用いた学習
+      institution: 第23回情報科学技術フォーラム (FIT 2024), Hiroshima University
+      year: 2024.09
+      description:
+        - 戌井祐人, 小西卓哉, 河原吉伸
 
-- title: Academic Interests
-  type: nested_list
+- title: Scholarships
+  type: time_table
   contents:
-    - title: Topic 1.
+    - year: 2024 - 2025
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - The University of Osaka Interdisciplinary Innovation Ph.D. Program Scholarship
+        - Ono Scholarship Foundation Scholarship
 
-- title: Other Interests
+- title: Reviewer
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - To be added
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: To be added
+      items:
+        - To be added
+
+- title: Languages
+  type: list
+  contents:
+    - To be added
+
+- title: Interests
+  type: list
+  contents:
+    - To be added

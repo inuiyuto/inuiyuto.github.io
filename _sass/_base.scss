@@ -410,6 +410,12 @@ ul.task-list input[type="checkbox"] {
         margin-bottom: 1rem;
       }
 
+      img[alt="researchmap"] {
+        width: 2.4rem;
+        height: 2.4rem;
+        margin-bottom: 1.35rem;
+      }
+
       svg {
         width: 3.5rem;
         height: 4rem;
@@ -438,6 +444,30 @@ ul.task-list input[type="checkbox"] {
 
   .contact-note {
     font-size: 0.8rem;
+  }
+}
+
+.publications {
+  .oral-badge,
+  .badge-light.oral-badge {
+    margin-top: 0.35rem;
+    margin-bottom: 0.8rem;
+    color: var(--global-theme-color) !important;
+    border: 1px solid var(--global-theme-color) !important;
+    background-color: #ffffff !important;
+    background-image: none !important;
+    font-weight: 600;
+    box-shadow: none !important;
+  }
+
+  .oral-badge *,
+  .badge-light.oral-badge * {
+    color: var(--global-theme-color) !important;
+  }
+
+  .publication-note {
+    color: var(--global-theme-color);
+    font-weight: 500;
   }
 }
 

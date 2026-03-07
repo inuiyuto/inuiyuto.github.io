@@ -1,14 +1,14 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /ja/publications/
 title: publications
-lang: en
+lang: ja
 ref: publications
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+<!-- _pages/ja/publications.md -->
 
 <div class="publications">
 

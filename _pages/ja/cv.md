@@ -1,11 +1,12 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: /ja/cv/
 title: cv
-lang: en
+lang: ja
 ref: cv
 nav: true
 nav_order: 5
+cv_data: cv_ja
 toc:
   sidebar: left
 ---
