@@ -1,9 +1,19 @@
 <header>
+  {% assign current_lang = page.lang | default: site.lang %}
+  {% assign about_page = nil %}
+  {% for candidate in site.pages %}
+    {% assign candidate_lang = candidate.lang | default: site.lang %}
+    {% if candidate.ref == 'about' and candidate_lang == current_lang %}
+      {% assign about_page = candidate %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign language_pages = site.pages | where: 'ref', page.ref | sort: 'lang' %}
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+      {% if page.url != about_page.url %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ about_page.url | relative_url }}">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
@@ -42,15 +52,11 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
-          {% endfor %}
-
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
-              {% if page.permalink == '/' %}
+          <li class="nav-item {% if page.url == about_page.url %}active{% endif %}">
+            <a class="nav-link" href="{{ about_page.url | relative_url }}">
+              {{- about_page.title }}
+              {% if page.url == about_page.url %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -59,7 +65,8 @@
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
-            {% if p.nav and p.autogen == null %}
+            {% assign nav_lang = p.lang | default: site.lang %}
+            {% if p.nav and p.autogen == null and nav_lang == current_lang %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
@@ -117,6 +124,21 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          {% if page.ref %}
+            <li class="nav-item">
+              <span class="nav-link">
+                {% for alt in language_pages %}
+                  {% assign alt_lang = alt.lang | default: site.lang %}
+                  {% if alt_lang == current_lang %}
+                    <strong>{{ alt_lang | upcase }}</strong>
+                  {% else %}
+                    <a href="{{ alt.url | relative_url }}">{{ alt_lang | upcase }}</a>
+                  {% endif %}
+                  {% unless forloop.last %} / {% endunless %}
+                {% endfor %}
+              </span>
+            </li>
+          {% endif %}
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">

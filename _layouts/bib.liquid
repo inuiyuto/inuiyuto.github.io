@@ -25,6 +25,9 @@
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
+      {% if entry.oral %}
+        <div class="badge rounded oral-badge">Oral</div>
+      {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -161,7 +164,36 @@
       {% capture entrytype %}{% endcapture %}
     {% endif %}
     {% if entry.month %}
-      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
+      {% assign month_key = entry.month | downcase %}
+      {% case month_key %}
+        {% when 'jan', 'january' %}
+          {% assign month_label = 'January' %}
+        {% when 'feb', 'february' %}
+          {% assign month_label = 'February' %}
+        {% when 'mar', 'march' %}
+          {% assign month_label = 'March' %}
+        {% when 'apr', 'april' %}
+          {% assign month_label = 'April' %}
+        {% when 'may' %}
+          {% assign month_label = 'May' %}
+        {% when 'jun', 'june' %}
+          {% assign month_label = 'June' %}
+        {% when 'jul', 'july' %}
+          {% assign month_label = 'July' %}
+        {% when 'aug', 'august' %}
+          {% assign month_label = 'August' %}
+        {% when 'sep', 'september' %}
+          {% assign month_label = 'September' %}
+        {% when 'oct', 'october' %}
+          {% assign month_label = 'October' %}
+        {% when 'nov', 'november' %}
+          {% assign month_label = 'November' %}
+        {% when 'dec', 'december' %}
+          {% assign month_label = 'December' %}
+        {% else %}
+          {% assign month_label = entry.month | capitalize %}
+      {% endcase %}
+      {% capture entrymonth %}{{ " " }}{{ month_label }}{% endcapture %}
     {% endif %}
     {% if entry.year %}
       {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
@@ -181,9 +213,11 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% if entry.note %}
+      <div class="periodical publication-note">
+        {{ entry.note | strip }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
