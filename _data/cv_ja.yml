@@ -15,45 +15,43 @@
 - title: 学歴
   type: time_table
   contents:
-    - title: 大阪大学大学院情報科学研究科 情報システム工学専攻 博士後期課程
+    - title: 大阪大学大学院情報科学研究科 博士後期課程
       institution: 大阪大学大学院情報科学研究科
-      year: 2026年4月 -
-      description:
-        - 2026年4月入学
-    - title: 大阪大学大学院情報科学研究科 情報システム工学専攻 博士前期課程
+      year: 2026.04 -
+    - title: 大阪大学大学院情報科学研究科 博士前期課程
       institution: 大阪大学大学院情報科学研究科
-      year: 2024年4月 - 2026年3月
+      year: 2024.04 - 2026.03
       description:
-        - 修士論文: Learning Representations via Dynamical Structures of Oscillatory Neural Networks
+        - Learning Representations via Dynamical Structures of Oscillatory Neural Networks
     - title: 大阪大学基礎工学部情報科学科
       institution: 大阪大学基礎工学部
-      year: 2020年4月 - 2024年3月
+      year: 2020.04 - 2024.03
       description:
-        - 卒業論文: ニューラル常微分方程式における変数拡張の表現力向上に関する実験的検証
+        - ニューラル常微分方程式における変数拡張の表現力向上に関する実験的検証
 
 - title: 職歴
   type: time_table
   contents:
     - title: 研究パートタイマーII
       institution: 理化学研究所 革新知能統合研究センター (AIP) 動的システム学習チーム
-      year: 2024年4月 -
+      year: 2024.04 -
 
-- title: 論文
+- title: 国際会議
   type: time_table
   contents:
     - title: Learning with Almost Invariant Sets in Neural Oscillatory ODEs
       institution: ICONIP 2024, CCIS Vol. 2284 (Springer) に掲載
-      year: 2025年6月
+      year: 2025.06
       description:
         - Y. Inui, T. Konishi, and Y. Kawahara
         - Communications in Computer and Information Science (CCIS), Vol. 2284, pp. 347-361
 
-- title: 発表
+- title: 国内会議
   type: time_table
   contents:
     - title: 振動するニューラル常微分方程式におけるほとんど不変な集合を用いた学習
-      institution: 第23回情報科学技術フォーラム (FIT 2024), 広島大学
-      year: 2024年9月
+      institution: 第23回情報科学技術フォーラム (FIT 2024), 広島工業大学
+      year: 2024.09
       description:
         - 戌井祐人, 小西卓哉, 河原吉伸
 

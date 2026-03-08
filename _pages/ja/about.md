@@ -13,7 +13,6 @@ profile:
   more_info: >
     <p>The University of Osaka</p>
     <p>Ph.D student</p>
-    <p>Machine learning via dynamical systems</p>
 
 selected_papers: false
 social: true
@@ -33,10 +32,10 @@ latest_posts:
 
 ## Research Keywords
 
-- Neural ODEs
-- Oscillatory neural networks
-- Dynamical systems
-- Representation learning
-- Machine learning theory
+- Neural Differential Equations
+- Oscillatory Neural Networks
+- Perron Frobenius Operator
+- Contrastive Learning
+- Flow Matching
 
 このページはまだ整備中で、今後プロフィール、研究内容、業績などを順に更新していきます。
