@@ -29,7 +29,7 @@ latest_posts:
 
 I am Yuto Inui, a Ph.D student at The University of Osaka, working on machine learning from the perspective of dynamical systems.
 
-I am currently supervised by [Yoshinobu Kawahara](https://mls.ist.osaka-u.ac.jp/~kawahara/), and I am interested in the intersection of machine learning and dynamical systems. My research focuses on learning methods for data and phenomena with underlying dynamical structure, with interests spanning both theory and applications.
+Under the supervision of [Yoshinobu Kawahara](https://mls.ist.osaka-u.ac.jp/~kawahara/), I study machine learning from the perspective of dynamical systems. My research encompasses not only the learning of dynamical systems but also models and algorithms with dynamical structure.
 
 ## Research Keywords
 
