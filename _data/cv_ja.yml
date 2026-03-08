@@ -9,8 +9,7 @@
       value: 大阪大学
     - name: 身分
       value: 博士課程学生
-    - name: 研究分野
-      value: dynamical systems の観点からの machine learning
+
 
 - title: 学歴
   type: time_table
@@ -60,7 +59,7 @@
   contents:
     - year: 2024 - 2025
       items:
-        - 大阪大学 超域イノベーション博士課程プログラム 給付奨学金
+        - 大阪大学超域イノベーション博士課程プログラム 給付奨学金
         - 公益財団法人小野奨学会 給付奨学金
 
 - title: 査読

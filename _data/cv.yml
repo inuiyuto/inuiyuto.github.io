@@ -9,8 +9,7 @@
       value: The University of Osaka
     - name: Position
       value: Ph.D student
-    - name: Research Interest
-      value: Machine learning via dynamical systems
+
 
 - title: Education
   type: time_table
@@ -60,8 +59,8 @@
   contents:
     - year: 2024 - 2025
       items:
-        - The University of Osaka Interdisciplinary Innovation Ph.D. Program Scholarship
-        - Ono Scholarship Foundation Scholarship
+        - Cross-Boundary Innovation Program Scholarship, The University of Osaka
+        - Ono Scholarship Foundation
 
 - title: Reviewer
   type: list
