@@ -10,7 +10,6 @@
     - name: 身分
       value: 博士課程学生
 
-
 - title: 学歴
   type: time_table
   contents:
