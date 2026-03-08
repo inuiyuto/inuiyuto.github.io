@@ -13,7 +13,6 @@ profile:
   more_info: >
     <p>The University of Osaka</p>
     <p>Ph.D student</p>
-    <p>Machine learning via dynamical systems</p>
 
 selected_papers: false
 social: true # includes social icons at the bottom of the page
@@ -33,10 +32,10 @@ Under the supervision of [Yoshinobu Kawahara](https://mls.ist.osaka-u.ac.jp/~kaw
 
 ## Research Keywords
 
-- Neural ODEs
-- Oscillatory neural networks
-- Dynamical systems
-- Representation learning
-- Machine learning theory
+- Neural Differential Equations
+- Oscillatory Neural Networks
+- Perron Frobenius Operator
+- Contrastive Learning
+- Flow Matching
 
 This page is still under construction, and I will gradually update it with my profile, research, and publications.
