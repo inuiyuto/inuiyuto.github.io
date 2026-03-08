@@ -29,7 +29,7 @@ latest_posts:
 
 戌井祐人です。大阪大学で博士課程に在籍し、dynamical systems の視点から machine learning を研究しています。
 
-現在は、[河原吉伸先生](https://mls.ist.osaka-u.ac.jp/~kawahara/) の指導のもとで、機械学習と動的システムの交差領域に関心を持って研究しています。理論と応用の両面から、動的構造をもつデータや現象を捉えるための学習手法に取り組んでいます。
+現在は、[河原吉伸先生](https://mls.ist.osaka-u.ac.jp/~kawahara/) の指導のもとで、力学系の観点から機械学習を研究しています。力学系の学習のみならず、動力学的構造をもつモデルやアルゴリズムに関して取り組んでいます。
 
 ## Research Keywords
 
