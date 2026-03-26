@@ -40,6 +40,9 @@ ninja.data = [{
         },{id: "news-our-paper-learning-with-almost-invariant-sets-in-neural-oscillatory-odes-was-accepted-at-iconip-2024",
           title: 'Our paper, “Learning with Almost Invariant Sets in Neural Oscillatory ODEs”, was accepted...',
           description: "",
+          section: "News",},{id: "news-our-paper-kernel-occupation-readout-for-oscillatory-recurrent-neural-networks-was-accepted-at-ijcnn-2026",
+          title: 'Our paper, “Kernel Occupation Readout for Oscillatory Recurrent Neural Networks”, was accepted at...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
