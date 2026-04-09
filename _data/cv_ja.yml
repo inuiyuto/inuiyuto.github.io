@@ -32,7 +32,7 @@
   contents:
     - title: 研究パートタイマーII
       institution: 理化学研究所 革新知能統合研究センター (AIP) 動的システム学習チーム
-      year: 2024.04 -
+      year: 2024.04 - 2026.03
 
 - title: 国際会議
   type: time_table
@@ -56,6 +56,9 @@
 - title: 奨学金
   type: time_table
   contents:
+    - year: 2026.04 - 2029.03
+      items:
+        - 大阪大学次世代AI人材育成事業（BOOST）
     - year: 2024 - 2025
       items:
         - 大阪大学超域イノベーション博士課程プログラム 給付奨学金
