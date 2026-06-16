@@ -35,7 +35,4 @@ Under the supervision of [Yoshinobu Kawahara](https://mls.ist.osaka-u.ac.jp/~kaw
 - Neural Differential Equations
 - Oscillatory Neural Networks
 - Perron Frobenius Operator
-- Contrastive Learning
 - Flow Matching
-
-This page is still under construction, and I will gradually update it with my profile, research, and publications.

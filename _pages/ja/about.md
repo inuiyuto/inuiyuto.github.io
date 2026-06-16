@@ -35,7 +35,4 @@ latest_posts:
 - Neural Differential Equations
 - Oscillatory Neural Networks
 - Perron Frobenius Operator
-- Contrastive Learning
 - Flow Matching
-
-このページはまだ整備中で、今後プロフィール、研究内容、業績などを順に更新していきます。

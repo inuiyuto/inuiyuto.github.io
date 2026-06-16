@@ -37,6 +37,12 @@
 - title: 国際会議
   type: time_table
   contents:
+    - title: Kernel Occupation Readout for Oscillatory Recurrent Neural Networks
+      institution: IJCNN 2026
+      year: 2026.06
+      description:
+        - Y. Inui, M. Ikeda, T. Konishi, and Y. Kawahara
+        - Oral Presentation
     - title: Learning with Almost Invariant Sets in Neural Oscillatory ODEs
       institution: ICONIP 2024, CCIS Vol. 2284 (Springer) に掲載
       year: 2025.06
@@ -47,6 +53,11 @@
 - title: 国内会議
   type: time_table
   contents:
+    - title: 振動するリカレントニューラルネットワークのためのカーネル占有読み出し
+      institution: 第40回人工知能学会全国大会 (JSAI 2026), Gメッセ群馬
+      year: 2026.06
+      description:
+        - 戌井祐人, 池田正弘, 小西卓哉, 河原吉伸
     - title: 振動するニューラル常微分方程式におけるほとんど不変な集合を用いた学習
       institution: 第23回情報科学技術フォーラム (FIT 2024), 広島工業大学
       year: 2024.09
@@ -67,7 +78,7 @@
 - title: 査読
   type: list
   contents:
-    - 後日追加
+    - IJCNN 2026（2本）
 
 - title: Skills
   type: nested_list
