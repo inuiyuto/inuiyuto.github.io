@@ -79,6 +79,13 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=bsu9grEAAAAJ", "_blank");
         },
       },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/yto_inui", "_blank");
+        },
+      },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Socials',
